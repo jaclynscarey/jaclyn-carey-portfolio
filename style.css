@@ -126,7 +126,7 @@ div.witc {
     height: 45vmin;
     width: 35vmin;
     background-color: #ffcdb2;
-    overflow: auto;
+    overflow: scroll;
 }
 .bold-span {
     font-weight: bold;
