@@ -102,7 +102,7 @@ a > img {
     overflow: scroll;
 }
 
-.witc-main-div {
+.proj-main-div {
     display: flex;
     flex-wrap: wrap;
     margin: 1vmin 1vmin 5vmin;
@@ -111,17 +111,18 @@ a > img {
     border-bottom: .5vmin solid #ffffff;
 
 }
-#witc-img {
+.proj-img {
     height: 45vmin;
     width: auto;
-    margin-right: 1vmin;
+    /* margin-right: 1vmin; */
 }
 
 div > h3 {
     font-size: 2.5vmin;
     margin-bottom: 2vmin;
 }
-div.witc {
+div.proj {
+    margin-left: 1vmin;
     padding: 3vmin;
     height: 45vmin;
     width: 35vmin;
@@ -139,4 +140,20 @@ a {
 
 a:hover {
     text-shadow: .125vmin .125vmin .125vmin #7d555d;
+}
+
+.image-slider {
+    display: flex;
+    transition: 3s;
+
+}
+
+.window {
+    height: 45vmin;
+    width: 37.5vmin;
+    overflow: hidden;
+}
+
+.game-img {
+    width: 37.5vmin;
 }
